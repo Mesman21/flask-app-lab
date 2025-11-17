@@ -1,0 +1,42 @@
+{% extends "base.html" %}
+
+{% block content %}
+<header class="text-center my-5">
+    <h1>Михайло Пикало</h1>
+    <p class="lead">Студент Факультету математики та інформатики, початківець у веб-розробці на Flask</p>
+
+    <img
+        src="{{ url_for('static', filename='images/my_photo.jpg') }}"
+        alt="Фото Михайла Пикала"
+        class="profile-photo img-fluid rounded-circle"
+        style="width: 200px; height: 200px;"
+    >
+</header>
+
+<section id="about" class="mb-4">
+    <h2>Про себе</h2>
+    <p>Я студент, який активно вивчає розробку веб-додатків на базі Python та фреймворку Flask. Мій інтерес зосереджений на програмуванні, а також я захоплююся футболом та подорожами. Прагну здобути практичний досвід у створенні ефективних та чистих веб-рішень.</p>
+</section>
+
+<section id="education" class="mb-4">
+    <h2>Освіта</h2>
+    <ul>
+        <li><strong>Карпатський національний університет ім. Василя Стефаника</strong> — Факультет математики та інформатики (Навчаюся)</li>
+    </ul>
+</section>
+
+<section id="skills" class="mb-4">
+    <h2>Навички та Технології</h2>
+    <ul>
+        <li><strong>Програмування:</strong> Python, Flask, Jinja2.</li>
+        <li><strong>Веб-технології:</strong> HTML5, CSS3, Bootstrap.</li>
+        <li><strong>Системи контролю версій:</strong> Git/GitHub.</li>
+    </ul>
+</section>
+
+<section id="experience" class="mb-4">
+    <h2>Досвід роботи / Проекти</h2>
+    <p>Створення та розгортання простого Flask-додатку на хмарному сервісі Render (Лабораторна робота №1).</p>
+</section>
+
+{% endblock %}
