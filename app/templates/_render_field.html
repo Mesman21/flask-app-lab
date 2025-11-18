@@ -1,0 +1,14 @@
+{# @var field wtforms.fields.Field #}
+{% macro render_field(field) %}
+    <div class="mb-3">
+        <label for="{{ field.id }}" class="form-label">{{ field.label }}</label>
+        {{ field(class="form-control") }}
+        {% if field.errors %}
+            <ul class="list-unstyled">
+            {% for error in field.errors %}
+                <li class="text-danger mt-1">{{ error }}</li>
+            {% endfor %}
+            </ul>
+        {% endif %}
+    </div>
+{% endmacro %}

@@ -1,0 +1,313 @@
+2025-11-18 17:26:55,870 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-11-18 17:26:55,870 - [33mPress CTRL+C to quit[0m
+2025-11-18 17:26:55,870 -  * Restarting with stat
+2025-11-18 17:26:56,289 -  * Debugger is active!
+2025-11-18 17:26:56,293 -  * Debugger PIN: 500-768-082
+2025-11-18 17:27:06,978 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-11-18 17:27:06,978 - [33mPress CTRL+C to quit[0m
+2025-11-18 17:27:06,978 -  * Restarting with stat
+2025-11-18 17:27:07,309 -  * Debugger is active!
+2025-11-18 17:27:07,318 -  * Debugger PIN: 500-768-082
+2025-11-18 17:29:20,925 -  * Detected change in 'D:\\Python\\flask_app_Pykalo\\app\\users\\views.py', reloading
+2025-11-18 17:29:20,969 -  * Restarting with stat
+2025-11-18 17:30:44,651 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-11-18 17:30:44,651 - [33mPress CTRL+C to quit[0m
+2025-11-18 17:30:44,654 -  * Restarting with stat
+2025-11-18 17:30:45,043 -  * Debugger is active!
+2025-11-18 17:30:45,052 -  * Debugger PIN: 500-768-082
+2025-11-18 17:30:54,884 - 127.0.0.1 - - [18/Nov/2025 17:30:54] "GET / HTTP/1.1" 200 -
+2025-11-18 17:30:55,026 - 127.0.0.1 - - [18/Nov/2025 17:30:55] "[36mGET /static/images/my_photo.jpg HTTP/1.1[0m" 304 -
+2025-11-18 17:30:55,030 - 127.0.0.1 - - [18/Nov/2025 17:30:55] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-11-18 17:31:02,599 - 127.0.0.1 - - [18/Nov/2025 17:31:02] "GET /contacts HTTP/1.1" 200 -
+2025-11-18 17:31:02,630 - 127.0.0.1 - - [18/Nov/2025 17:31:02] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-11-18 17:31:33,108 - 127.0.0.1 - - [18/Nov/2025 17:31:33] "GET /contacts HTTP/1.1" 200 -
+2025-11-18 17:31:33,135 - 127.0.0.1 - - [18/Nov/2025 17:31:33] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-11-18 17:33:46,513 - 127.0.0.1 - - [18/Nov/2025 17:33:46] "GET /contacts HTTP/1.1" 200 -
+2025-11-18 17:33:46,542 - 127.0.0.1 - - [18/Nov/2025 17:33:46] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-11-18 17:33:48,184 - 127.0.0.1 - - [18/Nov/2025 17:33:48] "GET / HTTP/1.1" 200 -
+2025-11-18 17:33:48,212 - 127.0.0.1 - - [18/Nov/2025 17:33:48] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-11-18 17:33:48,213 - 127.0.0.1 - - [18/Nov/2025 17:33:48] "[36mGET /static/images/my_photo.jpg HTTP/1.1[0m" 304 -
+2025-11-18 17:33:50,490 - 127.0.0.1 - - [18/Nov/2025 17:33:50] "GET / HTTP/1.1" 200 -
+2025-11-18 17:33:50,519 - 127.0.0.1 - - [18/Nov/2025 17:33:50] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-11-18 17:33:50,519 - 127.0.0.1 - - [18/Nov/2025 17:33:50] "[36mGET /static/images/my_photo.jpg HTTP/1.1[0m" 304 -
+2025-11-18 17:33:52,112 - 127.0.0.1 - - [18/Nov/2025 17:33:52] "GET /contacts HTTP/1.1" 200 -
+2025-11-18 17:33:52,140 - 127.0.0.1 - - [18/Nov/2025 17:33:52] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-11-18 17:34:00,650 - 127.0.0.1 - - [18/Nov/2025 17:34:00] "GET /users/hi/Ivan HTTP/1.1" 200 -
+2025-11-18 17:34:00,678 - 127.0.0.1 - - [18/Nov/2025 17:34:00] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-11-18 17:34:02,184 - 127.0.0.1 - - [18/Nov/2025 17:34:02] "GET /users/hi/John?age=30 HTTP/1.1" 200 -
+2025-11-18 17:34:02,211 - 127.0.0.1 - - [18/Nov/2025 17:34:02] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-11-18 17:34:02,569 - 127.0.0.1 - - [18/Nov/2025 17:34:02] "[32mGET /users/admin HTTP/1.1[0m" 302 -
+2025-11-18 17:34:02,573 - 127.0.0.1 - - [18/Nov/2025 17:34:02] "GET /users/hi/Administrator?age=45 HTTP/1.1" 200 -
+2025-11-18 17:34:02,601 - 127.0.0.1 - - [18/Nov/2025 17:34:02] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-11-18 17:34:03,128 - 127.0.0.1 - - [18/Nov/2025 17:34:03] "GET /users/hi/John?age=30 HTTP/1.1" 200 -
+2025-11-18 17:34:03,154 - 127.0.0.1 - - [18/Nov/2025 17:34:03] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-11-18 17:34:04,658 - 127.0.0.1 - - [18/Nov/2025 17:34:04] "GET / HTTP/1.1" 200 -
+2025-11-18 17:34:04,686 - 127.0.0.1 - - [18/Nov/2025 17:34:04] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-11-18 17:34:04,686 - 127.0.0.1 - - [18/Nov/2025 17:34:04] "[36mGET /static/images/my_photo.jpg HTTP/1.1[0m" 304 -
+2025-11-18 17:34:04,847 - 127.0.0.1 - - [18/Nov/2025 17:34:04] "GET / HTTP/1.1" 200 -
+2025-11-18 17:34:04,876 - 127.0.0.1 - - [18/Nov/2025 17:34:04] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-11-18 17:34:04,877 - 127.0.0.1 - - [18/Nov/2025 17:34:04] "[36mGET /static/images/my_photo.jpg HTTP/1.1[0m" 304 -
+2025-11-18 17:34:07,234 - 127.0.0.1 - - [18/Nov/2025 17:34:07] "GET /users/login HTTP/1.1" 200 -
+2025-11-18 17:34:07,263 - 127.0.0.1 - - [18/Nov/2025 17:34:07] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-11-18 17:39:49,768 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-11-18 17:39:49,768 - [33mPress CTRL+C to quit[0m
+2025-11-18 17:39:49,770 -  * Restarting with stat
+2025-11-18 17:39:50,104 -  * Debugger is active!
+2025-11-18 17:39:50,108 -  * Debugger PIN: 500-768-082
+2025-11-18 17:41:36,713 -  * Detected change in 'D:\\Python\\flask_app_Pykalo\\app\\users\\views.py', reloading
+2025-11-18 17:41:36,783 -  * Restarting with stat
+2025-11-18 17:42:50,525 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-11-18 17:42:50,525 - [33mPress CTRL+C to quit[0m
+2025-11-18 17:42:50,528 -  * Restarting with stat
+2025-11-18 17:42:50,862 -  * Debugger is active!
+2025-11-18 17:42:50,866 -  * Debugger PIN: 500-768-082
+2025-11-18 17:44:20,991 -  * Detected change in 'D:\\Python\\flask_app_Pykalo\\app\\users\\views.py', reloading
+2025-11-18 17:44:21,023 -  * Restarting with stat
+2025-11-18 17:44:43,241 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-11-18 17:44:43,241 - [33mPress CTRL+C to quit[0m
+2025-11-18 17:44:43,241 -  * Restarting with stat
+2025-11-18 17:44:43,575 -  * Debugger is active!
+2025-11-18 17:44:43,579 -  * Debugger PIN: 500-768-082
+2025-11-18 17:46:31,499 -  * Detected change in 'D:\\Python\\flask_app_Pykalo\\app\\users\\views.py', reloading
+2025-11-18 17:46:31,531 -  * Restarting with stat
+2025-11-18 17:46:31,893 -  * Debugger is active!
+2025-11-18 17:46:31,897 -  * Debugger PIN: 500-768-082
+2025-11-18 17:47:05,103 -  * Detected change in 'D:\\Python\\flask_app_Pykalo\\app\\__init__.py', reloading
+2025-11-18 17:47:05,139 -  * Restarting with stat
+2025-11-18 17:47:05,498 -  * Debugger is active!
+2025-11-18 17:47:05,503 -  * Debugger PIN: 500-768-082
+2025-11-18 17:47:18,765 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-11-18 17:47:18,765 - [33mPress CTRL+C to quit[0m
+2025-11-18 17:47:18,766 -  * Restarting with stat
+2025-11-18 17:47:19,110 -  * Debugger is active!
+2025-11-18 17:47:19,115 -  * Debugger PIN: 500-768-082
+2025-11-18 17:47:58,472 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-11-18 17:47:58,472 - [33mPress CTRL+C to quit[0m
+2025-11-18 17:47:58,473 -  * Restarting with stat
+2025-11-18 17:47:58,829 -  * Debugger is active!
+2025-11-18 17:47:58,833 -  * Debugger PIN: 500-768-082
+2025-11-18 17:50:31,094 -  * Detected change in 'D:\\Python\\flask_app_Pykalo\\run.py', reloading
+2025-11-18 17:50:31,136 -  * Restarting with stat
+2025-11-18 18:07:38,614 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-11-18 18:07:38,615 - [33mPress CTRL+C to quit[0m
+2025-11-18 18:07:38,617 -  * Restarting with stat
+2025-11-18 18:07:38,958 -  * Debugger is active!
+2025-11-18 18:07:38,963 -  * Debugger PIN: 500-768-082
+2025-11-18 18:12:35,781 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-11-18 18:12:35,782 - [33mPress CTRL+C to quit[0m
+2025-11-18 18:12:35,784 -  * Restarting with stat
+2025-11-18 18:12:36,167 -  * Debugger is active!
+2025-11-18 18:12:36,172 -  * Debugger PIN: 500-768-082
+2025-11-18 18:12:40,228 - 127.0.0.1 - - [18/Nov/2025 18:12:40] "[33mGET /users/login. HTTP/1.1[0m" 404 -
+2025-11-18 18:15:12,499 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-11-18 18:15:12,499 - [33mPress CTRL+C to quit[0m
+2025-11-18 18:15:12,499 -  * Restarting with stat
+2025-11-18 18:15:12,846 -  * Debugger is active!
+2025-11-18 18:15:12,851 -  * Debugger PIN: 500-768-082
+2025-11-18 18:15:18,093 - 127.0.0.1 - - [18/Nov/2025 18:15:18] "GET /users/login HTTP/1.1" 200 -
+2025-11-18 18:15:18,199 - 127.0.0.1 - - [18/Nov/2025 18:15:18] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-11-18 18:15:53,459 - 127.0.0.1 - - [18/Nov/2025 18:15:53] "[32mPOST /users/login HTTP/1.1[0m" 302 -
+2025-11-18 18:15:53,468 - 127.0.0.1 - - [18/Nov/2025 18:15:53] "GET /users/login HTTP/1.1" 200 -
+2025-11-18 18:15:53,521 - 127.0.0.1 - - [18/Nov/2025 18:15:53] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-11-18 18:15:59,464 - 127.0.0.1 - - [18/Nov/2025 18:15:59] "[32mPOST /users/login HTTP/1.1[0m" 302 -
+2025-11-18 18:15:59,469 - 127.0.0.1 - - [18/Nov/2025 18:15:59] "GET /users/login HTTP/1.1" 200 -
+2025-11-18 18:15:59,505 - 127.0.0.1 - - [18/Nov/2025 18:15:59] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-11-18 18:16:14,520 - 127.0.0.1 - - [18/Nov/2025 18:16:14] "[32mPOST /users/login HTTP/1.1[0m" 302 -
+2025-11-18 18:16:14,527 - 127.0.0.1 - - [18/Nov/2025 18:16:14] "GET /users/login HTTP/1.1" 200 -
+2025-11-18 18:16:14,580 - 127.0.0.1 - - [18/Nov/2025 18:16:14] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-11-18 18:16:25,748 - 127.0.0.1 - - [18/Nov/2025 18:16:25] "[32mPOST /users/login HTTP/1.1[0m" 302 -
+2025-11-18 18:16:25,755 - 127.0.0.1 - - [18/Nov/2025 18:16:25] "GET /users/login HTTP/1.1" 200 -
+2025-11-18 18:16:25,789 - 127.0.0.1 - - [18/Nov/2025 18:16:25] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-11-18 18:17:01,316 - 127.0.0.1 - - [18/Nov/2025 18:17:01] "GET / HTTP/1.1" 200 -
+2025-11-18 18:17:01,348 - 127.0.0.1 - - [18/Nov/2025 18:17:01] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-11-18 18:17:01,348 - 127.0.0.1 - - [18/Nov/2025 18:17:01] "[36mGET /static/images/my_photo.jpg HTTP/1.1[0m" 304 -
+2025-11-18 18:17:04,304 - 127.0.0.1 - - [18/Nov/2025 18:17:04] "GET /users/login HTTP/1.1" 200 -
+2025-11-18 18:17:04,333 - 127.0.0.1 - - [18/Nov/2025 18:17:04] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-11-18 18:17:23,056 - 127.0.0.1 - - [18/Nov/2025 18:17:23] "GET / HTTP/1.1" 200 -
+2025-11-18 18:17:23,086 - 127.0.0.1 - - [18/Nov/2025 18:17:23] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-11-18 18:17:23,087 - 127.0.0.1 - - [18/Nov/2025 18:17:23] "[36mGET /static/images/my_photo.jpg HTTP/1.1[0m" 304 -
+2025-11-18 18:18:31,499 - 127.0.0.1 - - [18/Nov/2025 18:18:31] "GET /contacts HTTP/1.1" 200 -
+2025-11-18 18:18:31,528 - 127.0.0.1 - - [18/Nov/2025 18:18:31] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-11-18 18:20:08,951 -  * Detected change in 'D:\\Python\\flask_app_Pykalo\\app\\forms.py', reloading
+2025-11-18 18:20:08,979 -  * Restarting with stat
+2025-11-18 18:20:09,341 -  * Debugger is active!
+2025-11-18 18:20:09,345 -  * Debugger PIN: 500-768-082
+2025-11-18 18:20:12,047 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-11-18 18:20:12,047 - [33mPress CTRL+C to quit[0m
+2025-11-18 18:20:12,048 -  * Restarting with stat
+2025-11-18 18:20:12,390 -  * Debugger is active!
+2025-11-18 18:20:12,392 -  * Debugger PIN: 500-768-082
+2025-11-18 18:20:13,480 - 127.0.0.1 - - [18/Nov/2025 18:20:13] "GET /contacts HTTP/1.1" 200 -
+2025-11-18 18:20:13,549 - 127.0.0.1 - - [18/Nov/2025 18:20:13] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-11-18 18:20:14,638 - 127.0.0.1 - - [18/Nov/2025 18:20:14] "GET / HTTP/1.1" 200 -
+2025-11-18 18:20:14,664 - 127.0.0.1 - - [18/Nov/2025 18:20:14] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-11-18 18:20:14,665 - 127.0.0.1 - - [18/Nov/2025 18:20:14] "[36mGET /static/images/my_photo.jpg HTTP/1.1[0m" 304 -
+2025-11-18 18:20:16,598 - 127.0.0.1 - - [18/Nov/2025 18:20:16] "GET /users/login HTTP/1.1" 200 -
+2025-11-18 18:20:16,625 - 127.0.0.1 - - [18/Nov/2025 18:20:16] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-11-18 18:20:25,848 - 127.0.0.1 - - [18/Nov/2025 18:20:25] "[32mPOST /users/login HTTP/1.1[0m" 302 -
+2025-11-18 18:20:25,854 - 127.0.0.1 - - [18/Nov/2025 18:20:25] "GET /users/login HTTP/1.1" 200 -
+2025-11-18 18:20:25,889 - 127.0.0.1 - - [18/Nov/2025 18:20:25] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-11-18 18:20:27,373 - 127.0.0.1 - - [18/Nov/2025 18:20:27] "POST /users/login HTTP/1.1" 200 -
+2025-11-18 18:20:27,400 - 127.0.0.1 - - [18/Nov/2025 18:20:27] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-11-18 18:20:27,548 - 127.0.0.1 - - [18/Nov/2025 18:20:27] "POST /users/login HTTP/1.1" 200 -
+2025-11-18 18:20:27,575 - 127.0.0.1 - - [18/Nov/2025 18:20:27] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-11-18 18:20:27,717 - 127.0.0.1 - - [18/Nov/2025 18:20:27] "POST /users/login HTTP/1.1" 200 -
+2025-11-18 18:20:27,745 - 127.0.0.1 - - [18/Nov/2025 18:20:27] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-11-18 18:20:32,719 - 127.0.0.1 - - [18/Nov/2025 18:20:32] "[32mPOST /users/login HTTP/1.1[0m" 302 -
+2025-11-18 18:20:32,726 - 127.0.0.1 - - [18/Nov/2025 18:20:32] "GET /users/login HTTP/1.1" 200 -
+2025-11-18 18:20:32,755 - 127.0.0.1 - - [18/Nov/2025 18:20:32] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-11-18 18:20:43,723 - 127.0.0.1 - - [18/Nov/2025 18:20:43] "[32mPOST /users/login HTTP/1.1[0m" 302 -
+2025-11-18 18:20:43,736 - 127.0.0.1 - - [18/Nov/2025 18:20:43] "GET /users/login HTTP/1.1" 200 -
+2025-11-18 18:20:43,779 - 127.0.0.1 - - [18/Nov/2025 18:20:43] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-11-18 18:20:51,667 - 127.0.0.1 - - [18/Nov/2025 18:20:51] "[32mPOST /users/login HTTP/1.1[0m" 302 -
+2025-11-18 18:20:51,675 - 127.0.0.1 - - [18/Nov/2025 18:20:51] "GET /users/login HTTP/1.1" 200 -
+2025-11-18 18:20:51,709 - 127.0.0.1 - - [18/Nov/2025 18:20:51] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-11-18 18:21:34,204 -  * Detected change in 'D:\\Python\\flask_app_Pykalo\\app\\forms.py', reloading
+2025-11-18 18:21:34,255 -  * Restarting with stat
+2025-11-18 18:21:34,636 -  * Debugger is active!
+2025-11-18 18:21:34,641 -  * Debugger PIN: 500-768-082
+2025-11-18 18:21:34,696 - 127.0.0.1 - - [18/Nov/2025 18:21:34] "GET /users/login HTTP/1.1" 200 -
+2025-11-18 18:21:34,775 - 127.0.0.1 - - [18/Nov/2025 18:21:34] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-11-18 18:21:39,159 - 127.0.0.1 - - [18/Nov/2025 18:21:39] "[32mPOST /users/login HTTP/1.1[0m" 302 -
+2025-11-18 18:21:39,171 - 127.0.0.1 - - [18/Nov/2025 18:21:39] "GET /users/profile HTTP/1.1" 200 -
+2025-11-18 18:21:39,206 - 127.0.0.1 - - [18/Nov/2025 18:21:39] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-11-18 18:23:40,035 -  * Detected change in 'D:\\Python\\flask_app_Pykalo\\app\\users\\views.py', reloading
+2025-11-18 18:23:40,093 -  * Restarting with stat
+2025-11-18 18:23:40,474 -  * Debugger is active!
+2025-11-18 18:23:40,479 -  * Debugger PIN: 500-768-082
+2025-11-18 18:23:40,529 - 127.0.0.1 - - [18/Nov/2025 18:23:40] "GET /users/profile HTTP/1.1" 200 -
+2025-11-18 18:23:40,606 - 127.0.0.1 - - [18/Nov/2025 18:23:40] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-11-18 18:23:46,443 - 127.0.0.1 - - [18/Nov/2025 18:23:46] "[32mPOST /users/cookies HTTP/1.1[0m" 302 -
+2025-11-18 18:23:46,449 - 127.0.0.1 - - [18/Nov/2025 18:23:46] "GET /users/profile HTTP/1.1" 200 -
+2025-11-18 18:23:46,490 - 127.0.0.1 - - [18/Nov/2025 18:23:46] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-11-18 18:23:47,670 - 127.0.0.1 - - [18/Nov/2025 18:23:47] "[32mGET /users/theme/light HTTP/1.1[0m" 302 -
+2025-11-18 18:23:47,675 - 127.0.0.1 - - [18/Nov/2025 18:23:47] "GET /users/profile HTTP/1.1" 200 -
+2025-11-18 18:23:47,710 - 127.0.0.1 - - [18/Nov/2025 18:23:47] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-11-18 18:23:49,021 - 127.0.0.1 - - [18/Nov/2025 18:23:49] "[32mGET /users/theme/dark HTTP/1.1[0m" 302 -
+2025-11-18 18:23:49,027 - 127.0.0.1 - - [18/Nov/2025 18:23:49] "GET /users/profile HTTP/1.1" 200 -
+2025-11-18 18:23:49,061 - 127.0.0.1 - - [18/Nov/2025 18:23:49] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-11-18 18:23:50,094 - 127.0.0.1 - - [18/Nov/2025 18:23:50] "[32mPOST /users/cookies HTTP/1.1[0m" 302 -
+2025-11-18 18:23:50,099 - 127.0.0.1 - - [18/Nov/2025 18:23:50] "GET /users/profile HTTP/1.1" 200 -
+2025-11-18 18:23:50,135 - 127.0.0.1 - - [18/Nov/2025 18:23:50] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-11-18 18:24:06,948 - 127.0.0.1 - - [18/Nov/2025 18:24:06] "[32mPOST /users/cookies HTTP/1.1[0m" 302 -
+2025-11-18 18:24:06,955 - 127.0.0.1 - - [18/Nov/2025 18:24:06] "GET /users/profile HTTP/1.1" 200 -
+2025-11-18 18:24:06,992 - 127.0.0.1 - - [18/Nov/2025 18:24:06] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-11-18 18:24:19,538 - 127.0.0.1 - - [18/Nov/2025 18:24:19] "[32mPOST /users/cookies HTTP/1.1[0m" 302 -
+2025-11-18 18:24:19,543 - 127.0.0.1 - - [18/Nov/2025 18:24:19] "GET /users/profile HTTP/1.1" 200 -
+2025-11-18 18:24:19,580 - 127.0.0.1 - - [18/Nov/2025 18:24:19] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-11-18 18:30:26,516 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-11-18 18:30:26,516 - [33mPress CTRL+C to quit[0m
+2025-11-18 18:30:26,519 -  * Restarting with stat
+2025-11-18 18:30:26,849 -  * Debugger is active!
+2025-11-18 18:30:26,850 -  * Debugger PIN: 500-768-082
+2025-11-18 18:30:29,299 - 127.0.0.1 - - [18/Nov/2025 18:30:29] "GET / HTTP/1.1" 200 -
+2025-11-18 18:30:29,391 - 127.0.0.1 - - [18/Nov/2025 18:30:29] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-11-18 18:30:29,392 - 127.0.0.1 - - [18/Nov/2025 18:30:29] "[36mGET /static/images/my_photo.jpg HTTP/1.1[0m" 304 -
+2025-11-18 18:30:33,723 - 127.0.0.1 - - [18/Nov/2025 18:30:33] "GET /users/hi/Ivan HTTP/1.1" 200 -
+2025-11-18 18:30:33,751 - 127.0.0.1 - - [18/Nov/2025 18:30:33] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-11-18 18:30:34,719 - 127.0.0.1 - - [18/Nov/2025 18:30:34] "GET /users/hi/John?age=30 HTTP/1.1" 200 -
+2025-11-18 18:30:34,745 - 127.0.0.1 - - [18/Nov/2025 18:30:34] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-11-18 18:30:35,125 - 127.0.0.1 - - [18/Nov/2025 18:30:35] "[32mGET /users/admin HTTP/1.1[0m" 302 -
+2025-11-18 18:30:35,129 - 127.0.0.1 - - [18/Nov/2025 18:30:35] "GET /users/hi/Administrator?age=45 HTTP/1.1" 200 -
+2025-11-18 18:30:35,158 - 127.0.0.1 - - [18/Nov/2025 18:30:35] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-11-18 18:30:36,241 - 127.0.0.1 - - [18/Nov/2025 18:30:36] "GET / HTTP/1.1" 200 -
+2025-11-18 18:30:36,265 - 127.0.0.1 - - [18/Nov/2025 18:30:36] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-11-18 18:30:36,269 - 127.0.0.1 - - [18/Nov/2025 18:30:36] "[36mGET /static/images/my_photo.jpg HTTP/1.1[0m" 304 -
+2025-11-18 18:30:37,636 - 127.0.0.1 - - [18/Nov/2025 18:30:37] "GET /users/profile HTTP/1.1" 200 -
+2025-11-18 18:30:37,662 - 127.0.0.1 - - [18/Nov/2025 18:30:37] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-11-18 18:30:39,930 - 127.0.0.1 - - [18/Nov/2025 18:30:39] "GET / HTTP/1.1" 200 -
+2025-11-18 18:30:39,958 - 127.0.0.1 - - [18/Nov/2025 18:30:39] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-11-18 18:30:39,959 - 127.0.0.1 - - [18/Nov/2025 18:30:39] "[36mGET /static/images/my_photo.jpg HTTP/1.1[0m" 304 -
+2025-11-18 18:30:41,818 - 127.0.0.1 - - [18/Nov/2025 18:30:41] "GET /contacts HTTP/1.1" 200 -
+2025-11-18 18:30:41,844 - 127.0.0.1 - - [18/Nov/2025 18:30:41] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-11-18 18:30:43,750 - 127.0.0.1 - - [18/Nov/2025 18:30:43] "GET /users/hi/Ivan HTTP/1.1" 200 -
+2025-11-18 18:30:43,777 - 127.0.0.1 - - [18/Nov/2025 18:30:43] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-11-18 18:30:45,402 - 127.0.0.1 - - [18/Nov/2025 18:30:45] "GET /products/ HTTP/1.1" 200 -
+2025-11-18 18:30:45,429 - 127.0.0.1 - - [18/Nov/2025 18:30:45] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-11-18 18:30:46,149 - 127.0.0.1 - - [18/Nov/2025 18:30:46] "GET /products/1 HTTP/1.1" 200 -
+2025-11-18 18:30:46,178 - 127.0.0.1 - - [18/Nov/2025 18:30:46] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-11-18 18:30:46,783 - 127.0.0.1 - - [18/Nov/2025 18:30:46] "GET /products/ HTTP/1.1" 200 -
+2025-11-18 18:30:46,809 - 127.0.0.1 - - [18/Nov/2025 18:30:46] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-11-18 18:30:47,234 - 127.0.0.1 - - [18/Nov/2025 18:30:47] "GET /products/2 HTTP/1.1" 200 -
+2025-11-18 18:30:47,258 - 127.0.0.1 - - [18/Nov/2025 18:30:47] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-11-18 18:30:47,770 - 127.0.0.1 - - [18/Nov/2025 18:30:47] "GET /products/ HTTP/1.1" 200 -
+2025-11-18 18:30:47,794 - 127.0.0.1 - - [18/Nov/2025 18:30:47] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-11-18 18:32:36,786 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-11-18 18:32:36,786 - [33mPress CTRL+C to quit[0m
+2025-11-18 18:32:36,788 -  * Restarting with stat
+2025-11-18 18:32:37,146 -  * Debugger is active!
+2025-11-18 18:32:37,151 -  * Debugger PIN: 500-768-082
+2025-11-18 18:32:37,811 - 127.0.0.1 - - [18/Nov/2025 18:32:37] "GET /users/profile HTTP/1.1" 200 -
+2025-11-18 18:32:37,885 - 127.0.0.1 - - [18/Nov/2025 18:32:37] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-11-18 18:32:39,163 - 127.0.0.1 - - [18/Nov/2025 18:32:39] "[32mGET /users/logout HTTP/1.1[0m" 302 -
+2025-11-18 18:32:39,174 - 127.0.0.1 - - [18/Nov/2025 18:32:39] "GET /users/login HTTP/1.1" 200 -
+2025-11-18 18:32:39,202 - 127.0.0.1 - - [18/Nov/2025 18:32:39] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-11-18 18:32:48,099 - 127.0.0.1 - - [18/Nov/2025 18:32:48] "POST /users/login HTTP/1.1" 200 -
+2025-11-18 18:32:48,129 - 127.0.0.1 - - [18/Nov/2025 18:32:48] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-11-18 18:33:32,026 - 127.0.0.1 - - [18/Nov/2025 18:33:32] "GET /users/login HTTP/1.1" 200 -
+2025-11-18 18:33:32,067 - 127.0.0.1 - - [18/Nov/2025 18:33:32] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-11-18 18:33:32,201 - 127.0.0.1 - - [18/Nov/2025 18:33:32] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-11-18 18:34:01,295 - 127.0.0.1 - - [18/Nov/2025 18:34:01] "POST /users/login HTTP/1.1" 200 -
+2025-11-18 18:34:01,318 - 127.0.0.1 - - [18/Nov/2025 18:34:01] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-11-18 18:35:01,846 - 127.0.0.1 - - [18/Nov/2025 18:35:01] "[32mPOST /users/login HTTP/1.1[0m" 302 -
+2025-11-18 18:35:01,850 - 127.0.0.1 - - [18/Nov/2025 18:35:01] "GET /users/login HTTP/1.1" 200 -
+2025-11-18 18:35:01,871 - 127.0.0.1 - - [18/Nov/2025 18:35:01] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-11-18 18:35:09,925 - 127.0.0.1 - - [18/Nov/2025 18:35:09] "[32mPOST /users/login HTTP/1.1[0m" 302 -
+2025-11-18 18:35:09,930 - 127.0.0.1 - - [18/Nov/2025 18:35:09] "GET /users/profile HTTP/1.1" 200 -
+2025-11-18 18:35:09,952 - 127.0.0.1 - - [18/Nov/2025 18:35:09] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-11-18 18:35:15,633 - 127.0.0.1 - - [18/Nov/2025 18:35:15] "GET /products/ HTTP/1.1" 200 -
+2025-11-18 18:35:15,654 - 127.0.0.1 - - [18/Nov/2025 18:35:15] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-11-18 18:35:15,999 - 127.0.0.1 - - [18/Nov/2025 18:35:15] "GET /users/hi/Ivan HTTP/1.1" 200 -
+2025-11-18 18:35:16,018 - 127.0.0.1 - - [18/Nov/2025 18:35:16] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-11-18 18:35:16,332 - 127.0.0.1 - - [18/Nov/2025 18:35:16] "GET /contacts HTTP/1.1" 200 -
+2025-11-18 18:35:16,355 - 127.0.0.1 - - [18/Nov/2025 18:35:16] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-11-18 18:35:51,867 - 127.0.0.1 - - [18/Nov/2025 18:35:51] "[35m[1mPOST /contacts HTTP/1.1[0m" 500 -
+2025-11-18 18:35:51,885 - 127.0.0.1 - - [18/Nov/2025 18:35:51] "GET /contacts?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-11-18 18:35:51,888 - 127.0.0.1 - - [18/Nov/2025 18:35:51] "GET /contacts?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-11-18 18:35:51,899 - 127.0.0.1 - - [18/Nov/2025 18:35:51] "GET /contacts?__debugger__=yes&cmd=resource&f=console.png&s=ollbaEFARVOUeF7lVKJi HTTP/1.1" 200 -
+2025-11-18 18:35:51,967 - 127.0.0.1 - - [18/Nov/2025 18:35:51] "GET /contacts?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-11-18 18:37:34,542 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-11-18 18:37:34,542 - [33mPress CTRL+C to quit[0m
+2025-11-18 18:37:34,542 -  * Restarting with stat
+2025-11-18 18:37:34,892 -  * Debugger is active!
+2025-11-18 18:37:34,896 -  * Debugger PIN: 500-768-082
+2025-11-18 18:37:35,735 - 127.0.0.1 - - [18/Nov/2025 18:37:35] "GET / HTTP/1.1" 200 -
+2025-11-18 18:37:35,824 - 127.0.0.1 - - [18/Nov/2025 18:37:35] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-11-18 18:37:35,825 - 127.0.0.1 - - [18/Nov/2025 18:37:35] "[36mGET /static/images/my_photo.jpg HTTP/1.1[0m" 304 -
+2025-11-18 18:37:37,965 - 127.0.0.1 - - [18/Nov/2025 18:37:37] "GET /users/login HTTP/1.1" 200 -
+2025-11-18 18:37:37,993 - 127.0.0.1 - - [18/Nov/2025 18:37:37] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-11-18 18:37:40,598 - 127.0.0.1 - - [18/Nov/2025 18:37:40] "GET /contacts HTTP/1.1" 200 -
+2025-11-18 18:37:40,624 - 127.0.0.1 - - [18/Nov/2025 18:37:40] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-11-18 18:38:04,419 - 127.0.0.1 - - [18/Nov/2025 18:38:04] "POST /contacts HTTP/1.1" 200 -
+2025-11-18 18:38:04,451 - 127.0.0.1 - - [18/Nov/2025 18:38:04] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-11-18 18:38:10,392 - Contact form submitted by Name: Михайло , Email: mykhailo.pykalo.23@pnu.edu.ua
+2025-11-18 18:38:10,392 - 127.0.0.1 - - [18/Nov/2025 18:38:10] "[32mPOST /contacts HTTP/1.1[0m" 302 -
+2025-11-18 18:38:10,399 - 127.0.0.1 - - [18/Nov/2025 18:38:10] "GET /contacts HTTP/1.1" 200 -
+2025-11-18 18:38:10,445 - 127.0.0.1 - - [18/Nov/2025 18:38:10] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-11-18 18:39:20,984 - Contact form submitted by Name: Misha, Email: mykhailo.pykalo.23@pnu.edu.ua
+2025-11-18 18:39:20,985 - 127.0.0.1 - - [18/Nov/2025 18:39:20] "[32mPOST /contacts HTTP/1.1[0m" 302 -
+2025-11-18 18:39:20,990 - 127.0.0.1 - - [18/Nov/2025 18:39:20] "GET /contacts HTTP/1.1" 200 -
+2025-11-18 18:39:21,013 - 127.0.0.1 - - [18/Nov/2025 18:39:21] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-11-18 18:40:03,356 - 127.0.0.1 - - [18/Nov/2025 18:40:03] "GET /users/profile HTTP/1.1" 200 -
+2025-11-18 18:40:03,377 - 127.0.0.1 - - [18/Nov/2025 18:40:03] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-11-18 18:40:04,357 - 127.0.0.1 - - [18/Nov/2025 18:40:04] "[32mGET /users/logout HTTP/1.1[0m" 302 -
+2025-11-18 18:40:04,362 - 127.0.0.1 - - [18/Nov/2025 18:40:04] "GET /users/login HTTP/1.1" 200 -
+2025-11-18 18:40:04,381 - 127.0.0.1 - - [18/Nov/2025 18:40:04] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-11-18 18:40:11,829 - 127.0.0.1 - - [18/Nov/2025 18:40:11] "[32mPOST /users/login HTTP/1.1[0m" 302 -
+2025-11-18 18:40:11,834 - 127.0.0.1 - - [18/Nov/2025 18:40:11] "GET /users/profile HTTP/1.1" 200 -
+2025-11-18 18:40:11,856 - 127.0.0.1 - - [18/Nov/2025 18:40:11] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
