@@ -1,12 +1,10 @@
-# ФАЙЛ: app/views.py
+from app import app
 from flask import render_template
-# ВИПРАВТЕ ЦЕЙ РЯДОК:
-from . import app
 
-@app.route('/')
+@app.route("/")
 def resume():
-    return render_template('resume.html', title='Резюме')
+    return render_template("resume.html")
 
-@app.route('/contacts')
+@app.route("/contacts")
 def contacts():
-    return render_template('contacts.html', title='Контакти')
+    return render_template("contacts.html")
