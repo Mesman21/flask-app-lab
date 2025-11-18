@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h2 class="mt-4">Зв'яжіться зі мною</h2>
+
+<section id="contact-info" class="mb-4">
+    <p>
+        <strong>Email (Навчальний):</strong> <a href="mailto:mykhailo.pykalo.23@pnu.edu.ua">mykhailo.pykalo.23@pnu.edu.ua</a> <br>
+        <strong>Телефон:</strong> +38 (067) 555-1234 <br>
+        <strong>GitHub:</strong> <a href="https://github.com/Mesman21">https://github.com/Mesman21</a>
+    </p>
+</section>
+
+<section id="contact-form" class="card p-4">
+    <h3>Форма зворотного зв'язку</h3>
+    <form action="#" method="post">
+        <div class="mb-3">
+            <label for="name" class="form-label">Ім'я:</label>
+            <input type="text" class="form-control" id="name" name="name" required>
+        </div>
+        <div class="mb-3">
+            <label for="email" class="form-label">Email:</label>
+            <input type="email" class="form-control" id="email" name="email" required>
+        </div>
+        <div class="mb-3">
+            <label for="message" class="form-label">Повідомлення:</label>
+            <textarea class="form-control" id="message" name="message" rows="4" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-success">Надіслати (Заглушка)</button>
+    </form>
+</section>
+
+{% endblock %}

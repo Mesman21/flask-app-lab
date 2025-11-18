@@ -1,0 +1,19 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding-top: 20px;
+}
+.container {
+    max-width: 900px; /* Обмеження ширини контенту */
+}
+/* Стилі для фото профілю */
+.profile-photo {
+    border: 5px solid #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    object-fit: cover;
+}
+/* Стилі для секцій */
+section {
+    padding: 20px 0;
+    border-bottom: 1px solid #ddd;
+}
