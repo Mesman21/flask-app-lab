@@ -1,15 +1,13 @@
 from flask import request, redirect, url_for, render_template, session, flash, make_response
 from . import users_bp
+from ..forms import LoginForm
 
 VALID_USERNAME = 'user1'
 VALID_PASSWORD = 'password123'
 
 
-# --- МАРШРУТИ ЛАБ 3 (Blueprint users) ---
-
 @users_bp.route("/hi/<string:name>")
 def greetings(name):
-    # Змінено шаблон на hi.html
     age = request.args.get("age", "Unknown")
     return render_template("users/hi.html", name=name.upper(), age=age)
 
@@ -19,26 +17,32 @@ def admin():
     return redirect(url_for('users.greetings', name='Administrator', age=45))
 
 
-# --- МАРШРУТИ ЛАБ 4 (Login, Profile, Logout) ---
-
 @users_bp.route("/login", methods=['GET', 'POST'])
 def login():
+    form = LoginForm()
+
     if 'username' in session:
         return redirect(url_for('users.profile'))
 
-    if request.method == 'POST':
-        username = request.form.get('username')
-        password = request.form.get('password')
+    if form.validate_on_submit():
+        username = form.username.data
+        password = form.password.data
+        remember = form.remember.data
 
         if username == VALID_USERNAME and password == VALID_PASSWORD:
             session['username'] = username
-            flash(f'Ласкаво просимо, {username}!', 'success')
+
+            msg = f'Ласкаво просимо, {username}!'
+            if remember:
+                msg += ' Вибрано запам\'ятати мене.'
+
+            flash(msg, 'success')
             return redirect(url_for('users.profile'))
         else:
-            flash('Неправильні дані. Спробуйте ще раз.', 'danger')
+            flash('Невірні дані автентифікації.', 'danger')
             return redirect(url_for('users.login'))
 
-    return render_template('users/login.html')
+    return render_template('users/login.html', form=form)
 
 
 @users_bp.route("/profile", methods=['GET', 'POST'])
@@ -48,7 +52,11 @@ def profile():
         return redirect(url_for('users.login'))
 
     username = session['username']
-    all_cookies = request.cookies.items()
+
+    cookies = request.cookies.copy()
+    if 'session' in cookies:
+        del cookies['session']
+    all_cookies = cookies.items()
 
     return render_template('users/profile.html', username=username, all_cookies=all_cookies)
 
@@ -59,8 +67,6 @@ def logout():
     flash('Ви успішно вийшли з системи.', 'info')
     return redirect(url_for('users.login'))
 
-
-# --- МАРШРУТИ ЛАБ 4 (Кукі та Теми) ---
 
 @users_bp.route("/cookies", methods=['POST'])
 def handle_cookies():
@@ -90,7 +96,8 @@ def handle_cookies():
         response = make_response(redirect(url_for('users.profile')))
 
         for key in request.cookies:
-            response.delete_cookie(key)
+            if key != 'session':
+                response.delete_cookie(key)
 
         flash('Усі кукі успішно видалено.', 'warning')
         return response
