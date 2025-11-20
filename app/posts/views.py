@@ -1,6 +1,6 @@
 from flask import render_template, redirect, url_for, flash, request, abort
 from . import post_bp
-from .models import Post
+from .models import Post, Tag
 from .forms import PostForm
 from app import db
 
@@ -27,8 +27,13 @@ def create_post():
             title=form.title.data,
             content=form.content.data,
             category=form.category.data,
+            user_id=form.author_id.data,
             is_active=form.is_active.data
         )
+
+        selected_tags = Tag.query.filter(Tag.id.in_(form.tags.data)).all()
+        post.tags.extend(selected_tags)
+
         db.session.add(post)
         db.session.commit()
         flash('Post created successfully!', 'success')
@@ -45,11 +50,18 @@ def update_post(id):
 
     form = PostForm(obj=post)
 
+    if request.method == 'GET':
+        form.author_id.data = post.user_id
+        form.tags.data = [tag.id for tag in post.tags]
+
     if form.validate_on_submit():
         post.title = form.title.data
         post.content = form.content.data
         post.category = form.category.data
+        post.user_id = form.author_id.data
         post.is_active = form.is_active.data
+
+        post.tags = Tag.query.filter(Tag.id.in_(form.tags.data)).all()
 
         db.session.commit()
         flash('Post updated successfully!', 'success')
