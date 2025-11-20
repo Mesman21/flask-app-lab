@@ -6,8 +6,18 @@
     <p class="text-muted">
         Category: {{ post.category }} |
         Posted: {{ post.posted.strftime('%Y-%m-%d %H:%M') }} |
-        Author: {{ post.author }}
+        Author: {{ post.user.username }}
     </p>
+
+    {% if post.tags %}
+    <p>
+        Tags:
+        {% for tag in post.tags %}
+            <span class="badge bg-info text-dark">{{ tag.name }}</span>
+        {% endfor %}
+    </p>
+    {% endif %}
+
     <hr>
     <p>{{ post.content }}</p>
     <hr>
