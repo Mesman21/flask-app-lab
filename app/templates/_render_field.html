@@ -1,8 +1,9 @@
-{# @var field wtforms.fields.Field #}
 {% macro render_field(field) %}
     <div class="mb-3">
         <label for="{{ field.id }}" class="form-label">{{ field.label }}</label>
-        {{ field(class="form-control") }}
+        {# Додаємо **kwargs, щоб передавати rows, placeholder тощо #}
+        {{ field(class="form-control", **kwargs) }}
+
         {% if field.errors %}
             <ul class="list-unstyled">
             {% for error in field.errors %}

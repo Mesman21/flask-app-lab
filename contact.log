@@ -311,3 +311,339 @@
 2025-11-18 18:40:11,829 - 127.0.0.1 - - [18/Nov/2025 18:40:11] "[32mPOST /users/login HTTP/1.1[0m" 302 -
 2025-11-18 18:40:11,834 - 127.0.0.1 - - [18/Nov/2025 18:40:11] "GET /users/profile HTTP/1.1" 200 -
 2025-11-18 18:40:11,856 - 127.0.0.1 - - [18/Nov/2025 18:40:11] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-11-18 18:44:38,994 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-11-18 18:44:38,994 - [33mPress CTRL+C to quit[0m
+2025-11-18 18:44:38,996 -  * Restarting with stat
+2025-11-18 18:44:39,416 -  * Debugger is active!
+2025-11-18 18:44:39,421 -  * Debugger PIN: 500-768-082
+2025-11-18 18:44:40,301 - 127.0.0.1 - - [18/Nov/2025 18:44:40] "GET / HTTP/1.1" 200 -
+2025-11-18 18:44:40,394 - 127.0.0.1 - - [18/Nov/2025 18:44:40] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-11-18 18:44:40,403 - 127.0.0.1 - - [18/Nov/2025 18:44:40] "GET /static/images/my_photo.jpg HTTP/1.1" 200 -
+2025-11-18 18:44:48,186 - 127.0.0.1 - - [18/Nov/2025 18:44:48] "GET / HTTP/1.1" 200 -
+2025-11-18 18:44:48,210 - 127.0.0.1 - - [18/Nov/2025 18:44:48] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-11-18 18:44:48,212 - 127.0.0.1 - - [18/Nov/2025 18:44:48] "[36mGET /static/images/my_photo.jpg HTTP/1.1[0m" 304 -
+2025-11-18 18:44:49,012 - 127.0.0.1 - - [18/Nov/2025 18:44:49] "GET /contacts HTTP/1.1" 200 -
+2025-11-18 18:44:49,035 - 127.0.0.1 - - [18/Nov/2025 18:44:49] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-11-18 18:44:49,641 - 127.0.0.1 - - [18/Nov/2025 18:44:49] "GET /users/hi/Ivan HTTP/1.1" 200 -
+2025-11-18 18:44:49,661 - 127.0.0.1 - - [18/Nov/2025 18:44:49] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-11-18 18:44:50,019 - 127.0.0.1 - - [18/Nov/2025 18:44:50] "GET /products/ HTTP/1.1" 200 -
+2025-11-18 18:44:50,045 - 127.0.0.1 - - [18/Nov/2025 18:44:50] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-11-18 18:44:50,439 - 127.0.0.1 - - [18/Nov/2025 18:44:50] "GET /users/profile HTTP/1.1" 200 -
+2025-11-18 18:44:50,457 - 127.0.0.1 - - [18/Nov/2025 18:44:50] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-11-18 18:44:51,874 - 127.0.0.1 - - [18/Nov/2025 18:44:51] "GET /products/ HTTP/1.1" 200 -
+2025-11-18 18:44:51,892 - 127.0.0.1 - - [18/Nov/2025 18:44:51] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-11-18 18:44:52,216 - 127.0.0.1 - - [18/Nov/2025 18:44:52] "GET /users/hi/Ivan HTTP/1.1" 200 -
+2025-11-18 18:44:52,238 - 127.0.0.1 - - [18/Nov/2025 18:44:52] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-11-18 18:44:52,579 - 127.0.0.1 - - [18/Nov/2025 18:44:52] "GET /contacts HTTP/1.1" 200 -
+2025-11-18 18:44:52,597 - 127.0.0.1 - - [18/Nov/2025 18:44:52] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-11-18 18:44:52,936 - 127.0.0.1 - - [18/Nov/2025 18:44:52] "GET / HTTP/1.1" 200 -
+2025-11-18 18:44:52,956 - 127.0.0.1 - - [18/Nov/2025 18:44:52] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-11-18 18:44:52,958 - 127.0.0.1 - - [18/Nov/2025 18:44:52] "[36mGET /static/images/my_photo.jpg HTTP/1.1[0m" 304 -
+2025-11-20 10:44:09,674 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-11-20 10:44:09,674 - [33mPress CTRL+C to quit[0m
+2025-11-20 10:44:09,674 -  * Restarting with stat
+2025-11-20 10:44:10,371 -  * Debugger is active!
+2025-11-20 10:44:10,371 -  * Debugger PIN: 500-768-082
+2025-11-20 10:46:31,623 -  * Detected change in 'D:\\Python\\flask_app_Pykalo\\run.py', reloading
+2025-11-20 10:46:31,724 -  * Restarting with stat
+2025-11-20 10:46:32,434 -  * Debugger is active!
+2025-11-20 10:46:32,434 -  * Debugger PIN: 500-768-082
+2025-11-20 10:46:41,670 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-11-20 10:46:41,670 - [33mPress CTRL+C to quit[0m
+2025-11-20 10:46:41,670 -  * Restarting with stat
+2025-11-20 10:46:42,373 -  * Debugger is active!
+2025-11-20 10:46:42,373 -  * Debugger PIN: 500-768-082
+2025-11-20 10:46:54,132 -  * Detected change in 'D:\\Python\\flask_app_Pykalo\\run.py', reloading
+2025-11-20 10:46:54,195 -  * Restarting with stat
+2025-11-20 10:46:54,876 -  * Debugger is active!
+2025-11-20 10:46:54,892 -  * Debugger PIN: 500-768-082
+2025-11-20 10:46:59,407 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-11-20 10:46:59,407 - [33mPress CTRL+C to quit[0m
+2025-11-20 10:46:59,407 -  * Restarting with stat
+2025-11-20 10:47:00,102 -  * Debugger is active!
+2025-11-20 10:47:00,102 -  * Debugger PIN: 500-768-082
+2025-11-20 10:48:16,696 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-11-20 10:48:16,696 - [33mPress CTRL+C to quit[0m
+2025-11-20 10:48:16,696 -  * Restarting with stat
+2025-11-20 10:48:17,600 -  * Debugger is active!
+2025-11-20 10:48:17,605 -  * Debugger PIN: 500-768-082
+2025-11-20 10:48:17,785 - 127.0.0.1 - - [20/Nov/2025 10:48:17] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-11-20 10:48:17,819 - 127.0.0.1 - - [20/Nov/2025 10:48:17] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-11-20 10:48:17,875 - 127.0.0.1 - - [20/Nov/2025 10:48:17] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-11-20 10:48:17,875 - 127.0.0.1 - - [20/Nov/2025 10:48:17] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-11-20 10:48:17,888 - 127.0.0.1 - - [20/Nov/2025 10:48:17] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-11-20 10:48:17,890 - 127.0.0.1 - - [20/Nov/2025 10:48:17] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-11-20 10:48:17,904 - 127.0.0.1 - - [20/Nov/2025 10:48:17] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=SeftV3H1k6iSJVikyMpR HTTP/1.1" 200 -
+2025-11-20 10:48:17,926 - 127.0.0.1 - - [20/Nov/2025 10:48:17] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png&s=SeftV3H1k6iSJVikyMpR HTTP/1.1[0m" 304 -
+2025-11-20 10:48:17,999 - 127.0.0.1 - - [20/Nov/2025 10:48:17] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-11-20 10:48:18,023 - 127.0.0.1 - - [20/Nov/2025 10:48:18] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-11-20 10:48:33,768 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-11-20 10:48:33,768 - [33mPress CTRL+C to quit[0m
+2025-11-20 10:48:33,768 -  * Restarting with stat
+2025-11-20 10:48:34,469 -  * Debugger is active!
+2025-11-20 10:48:34,469 -  * Debugger PIN: 500-768-082
+2025-11-20 10:48:38,867 - 127.0.0.1 - - [20/Nov/2025 10:48:38] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-11-20 10:48:38,964 - 127.0.0.1 - - [20/Nov/2025 10:48:38] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-11-20 10:48:38,970 - 127.0.0.1 - - [20/Nov/2025 10:48:38] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-11-20 10:48:39,005 - 127.0.0.1 - - [20/Nov/2025 10:48:39] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=QAWudBItFO3Px5q20n6j HTTP/1.1" 200 -
+2025-11-20 10:50:08,944 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-11-20 10:50:08,944 - [33mPress CTRL+C to quit[0m
+2025-11-20 10:50:08,944 -  * Restarting with stat
+2025-11-20 10:50:09,644 -  * Debugger is active!
+2025-11-20 10:50:09,660 -  * Debugger PIN: 500-768-082
+2025-11-20 10:50:14,575 - 127.0.0.1 - - [20/Nov/2025 10:50:14] "GET / HTTP/1.1" 200 -
+2025-11-20 10:50:14,686 - 127.0.0.1 - - [20/Nov/2025 10:50:14] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-11-20 10:50:14,686 - 127.0.0.1 - - [20/Nov/2025 10:50:14] "[36mGET /static/images/my_photo.jpg HTTP/1.1[0m" 304 -
+2025-11-20 10:50:14,834 - 127.0.0.1 - - [20/Nov/2025 10:50:14] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-11-20 10:50:17,801 - 127.0.0.1 - - [20/Nov/2025 10:50:17] "GET / HTTP/1.1" 200 -
+2025-11-20 10:50:17,824 - 127.0.0.1 - - [20/Nov/2025 10:50:17] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-11-20 10:50:17,833 - 127.0.0.1 - - [20/Nov/2025 10:50:17] "[36mGET /static/images/my_photo.jpg HTTP/1.1[0m" 304 -
+2025-11-20 10:50:17,895 - 127.0.0.1 - - [20/Nov/2025 10:50:17] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-11-20 10:50:20,038 - 127.0.0.1 - - [20/Nov/2025 10:50:20] "[35m[1mGET /contacts HTTP/1.1[0m" 500 -
+2025-11-20 10:50:20,060 - 127.0.0.1 - - [20/Nov/2025 10:50:20] "GET /contacts?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-11-20 10:50:20,068 - 127.0.0.1 - - [20/Nov/2025 10:50:20] "GET /contacts?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-11-20 10:50:20,097 - 127.0.0.1 - - [20/Nov/2025 10:50:20] "GET /contacts?__debugger__=yes&cmd=resource&f=console.png&s=LqkY1WqVmVN1r5uZLU0U HTTP/1.1" 200 -
+2025-11-20 10:50:20,154 - 127.0.0.1 - - [20/Nov/2025 10:50:20] "GET /contacts?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-11-20 10:50:28,172 - 127.0.0.1 - - [20/Nov/2025 10:50:28] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-11-20 10:50:29,163 - 127.0.0.1 - - [20/Nov/2025 10:50:29] "GET /users/hi/Ivan HTTP/1.1" 200 -
+2025-11-20 10:50:29,186 - 127.0.0.1 - - [20/Nov/2025 10:50:29] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-11-20 10:50:29,255 - 127.0.0.1 - - [20/Nov/2025 10:50:29] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-11-20 10:50:30,742 - 127.0.0.1 - - [20/Nov/2025 10:50:30] "GET /users/hi/John?age=30 HTTP/1.1" 200 -
+2025-11-20 10:50:30,769 - 127.0.0.1 - - [20/Nov/2025 10:50:30] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-11-20 10:50:30,827 - 127.0.0.1 - - [20/Nov/2025 10:50:30] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-11-20 10:50:31,641 - 127.0.0.1 - - [20/Nov/2025 10:50:31] "[32mGET /users/admin HTTP/1.1[0m" 302 -
+2025-11-20 10:50:31,646 - 127.0.0.1 - - [20/Nov/2025 10:50:31] "GET /users/hi/Administrator?age=45 HTTP/1.1" 200 -
+2025-11-20 10:50:31,674 - 127.0.0.1 - - [20/Nov/2025 10:50:31] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-11-20 10:50:31,735 - 127.0.0.1 - - [20/Nov/2025 10:50:31] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-11-20 10:50:32,099 - 127.0.0.1 - - [20/Nov/2025 10:50:32] "GET / HTTP/1.1" 200 -
+2025-11-20 10:50:32,122 - 127.0.0.1 - - [20/Nov/2025 10:50:32] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-11-20 10:50:32,122 - 127.0.0.1 - - [20/Nov/2025 10:50:32] "[36mGET /static/images/my_photo.jpg HTTP/1.1[0m" 304 -
+2025-11-20 10:50:32,191 - 127.0.0.1 - - [20/Nov/2025 10:50:32] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-11-20 10:50:34,292 - 127.0.0.1 - - [20/Nov/2025 10:50:34] "GET /products/ HTTP/1.1" 200 -
+2025-11-20 10:50:34,320 - 127.0.0.1 - - [20/Nov/2025 10:50:34] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-11-20 10:50:34,373 - 127.0.0.1 - - [20/Nov/2025 10:50:34] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-11-20 10:50:35,913 - 127.0.0.1 - - [20/Nov/2025 10:50:35] "GET /products/1 HTTP/1.1" 200 -
+2025-11-20 10:50:35,955 - 127.0.0.1 - - [20/Nov/2025 10:50:35] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-11-20 10:50:36,026 - 127.0.0.1 - - [20/Nov/2025 10:50:36] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-11-20 10:50:36,566 - 127.0.0.1 - - [20/Nov/2025 10:50:36] "GET /products/ HTTP/1.1" 200 -
+2025-11-20 10:50:36,588 - 127.0.0.1 - - [20/Nov/2025 10:50:36] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-11-20 10:50:36,650 - 127.0.0.1 - - [20/Nov/2025 10:50:36] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-11-20 10:50:36,954 - 127.0.0.1 - - [20/Nov/2025 10:50:36] "GET /products/2 HTTP/1.1" 200 -
+2025-11-20 10:50:36,977 - 127.0.0.1 - - [20/Nov/2025 10:50:36] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-11-20 10:50:37,033 - 127.0.0.1 - - [20/Nov/2025 10:50:37] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-11-20 10:50:37,598 - 127.0.0.1 - - [20/Nov/2025 10:50:37] "GET /products/ HTTP/1.1" 200 -
+2025-11-20 10:50:37,625 - 127.0.0.1 - - [20/Nov/2025 10:50:37] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-11-20 10:50:37,692 - 127.0.0.1 - - [20/Nov/2025 10:50:37] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-11-20 10:50:39,651 - 127.0.0.1 - - [20/Nov/2025 10:50:39] "[35m[1mGET /post HTTP/1.1[0m" 500 -
+2025-11-20 10:50:39,679 - 127.0.0.1 - - [20/Nov/2025 10:50:39] "GET /post?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-11-20 10:50:39,679 - 127.0.0.1 - - [20/Nov/2025 10:50:39] "GET /post?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-11-20 10:50:39,701 - 127.0.0.1 - - [20/Nov/2025 10:50:39] "GET /post?__debugger__=yes&cmd=resource&f=console.png&s=LqkY1WqVmVN1r5uZLU0U HTTP/1.1" 200 -
+2025-11-20 10:50:39,740 - 127.0.0.1 - - [20/Nov/2025 10:50:39] "GET /post?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-11-20 10:51:58,151 - 127.0.0.1 - - [20/Nov/2025 10:51:58] "[35m[1mGET /post HTTP/1.1[0m" 500 -
+2025-11-20 10:51:58,178 - 127.0.0.1 - - [20/Nov/2025 10:51:58] "[36mGET /post?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-11-20 10:51:58,182 - 127.0.0.1 - - [20/Nov/2025 10:51:58] "[36mGET /post?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-11-20 10:51:58,221 - 127.0.0.1 - - [20/Nov/2025 10:51:58] "[36mGET /post?__debugger__=yes&cmd=resource&f=console.png&s=LqkY1WqVmVN1r5uZLU0U HTTP/1.1[0m" 304 -
+2025-11-20 10:51:58,295 - 127.0.0.1 - - [20/Nov/2025 10:51:58] "[36mGET /post?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-11-20 10:51:59,143 - 127.0.0.1 - - [20/Nov/2025 10:51:59] "[35m[1mGET /post HTTP/1.1[0m" 500 -
+2025-11-20 10:51:59,176 - 127.0.0.1 - - [20/Nov/2025 10:51:59] "[36mGET /post?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-11-20 10:51:59,176 - 127.0.0.1 - - [20/Nov/2025 10:51:59] "[36mGET /post?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-11-20 10:51:59,189 - 127.0.0.1 - - [20/Nov/2025 10:51:59] "[36mGET /post?__debugger__=yes&cmd=resource&f=console.png&s=LqkY1WqVmVN1r5uZLU0U HTTP/1.1[0m" 304 -
+2025-11-20 10:51:59,223 - 127.0.0.1 - - [20/Nov/2025 10:51:59] "[36mGET /post?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-11-20 10:51:59,398 - 127.0.0.1 - - [20/Nov/2025 10:51:59] "[35m[1mGET /post HTTP/1.1[0m" 500 -
+2025-11-20 10:51:59,427 - 127.0.0.1 - - [20/Nov/2025 10:51:59] "[36mGET /post?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-11-20 10:51:59,428 - 127.0.0.1 - - [20/Nov/2025 10:51:59] "[36mGET /post?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-11-20 10:51:59,437 - 127.0.0.1 - - [20/Nov/2025 10:51:59] "[36mGET /post?__debugger__=yes&cmd=resource&f=console.png&s=LqkY1WqVmVN1r5uZLU0U HTTP/1.1[0m" 304 -
+2025-11-20 10:51:59,470 - 127.0.0.1 - - [20/Nov/2025 10:51:59] "[36mGET /post?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-11-20 10:51:59,880 - 127.0.0.1 - - [20/Nov/2025 10:51:59] "[35m[1mGET /post HTTP/1.1[0m" 500 -
+2025-11-20 10:51:59,908 - 127.0.0.1 - - [20/Nov/2025 10:51:59] "[36mGET /post?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-11-20 10:51:59,915 - 127.0.0.1 - - [20/Nov/2025 10:51:59] "[36mGET /post?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-11-20 10:51:59,925 - 127.0.0.1 - - [20/Nov/2025 10:51:59] "[36mGET /post?__debugger__=yes&cmd=resource&f=console.png&s=LqkY1WqVmVN1r5uZLU0U HTTP/1.1[0m" 304 -
+2025-11-20 10:51:59,960 - 127.0.0.1 - - [20/Nov/2025 10:51:59] "[36mGET /post?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-11-20 10:52:00,776 - 127.0.0.1 - - [20/Nov/2025 10:52:00] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-11-20 10:52:01,893 - 127.0.0.1 - - [20/Nov/2025 10:52:01] "GET / HTTP/1.1" 200 -
+2025-11-20 10:52:01,920 - 127.0.0.1 - - [20/Nov/2025 10:52:01] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-11-20 10:52:01,921 - 127.0.0.1 - - [20/Nov/2025 10:52:01] "[36mGET /static/images/my_photo.jpg HTTP/1.1[0m" 304 -
+2025-11-20 10:52:01,981 - 127.0.0.1 - - [20/Nov/2025 10:52:01] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-11-20 10:52:04,769 - 127.0.0.1 - - [20/Nov/2025 10:52:04] "GET /contacts HTTP/1.1" 200 -
+2025-11-20 10:52:04,796 - 127.0.0.1 - - [20/Nov/2025 10:52:04] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-11-20 10:52:04,866 - 127.0.0.1 - - [20/Nov/2025 10:52:04] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-11-20 10:52:06,989 - 127.0.0.1 - - [20/Nov/2025 10:52:06] "[35m[1mGET /post HTTP/1.1[0m" 500 -
+2025-11-20 10:52:07,021 - 127.0.0.1 - - [20/Nov/2025 10:52:07] "[36mGET /post?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-11-20 10:52:07,021 - 127.0.0.1 - - [20/Nov/2025 10:52:07] "[36mGET /post?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-11-20 10:52:07,032 - 127.0.0.1 - - [20/Nov/2025 10:52:07] "[36mGET /post?__debugger__=yes&cmd=resource&f=console.png&s=LqkY1WqVmVN1r5uZLU0U HTTP/1.1[0m" 304 -
+2025-11-20 10:52:14,603 - 127.0.0.1 - - [20/Nov/2025 10:52:14] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-11-20 10:52:15,819 - 127.0.0.1 - - [20/Nov/2025 10:52:15] "GET /users/login HTTP/1.1" 200 -
+2025-11-20 10:52:15,846 - 127.0.0.1 - - [20/Nov/2025 10:52:15] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-11-20 10:52:15,908 - 127.0.0.1 - - [20/Nov/2025 10:52:15] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-11-20 10:52:20,152 - 127.0.0.1 - - [20/Nov/2025 10:52:20] "[32mPOST /users/login HTTP/1.1[0m" 302 -
+2025-11-20 10:52:20,159 - 127.0.0.1 - - [20/Nov/2025 10:52:20] "GET /users/login HTTP/1.1" 200 -
+2025-11-20 10:52:20,186 - 127.0.0.1 - - [20/Nov/2025 10:52:20] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-11-20 10:52:20,245 - 127.0.0.1 - - [20/Nov/2025 10:52:20] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-11-20 10:52:26,645 - 127.0.0.1 - - [20/Nov/2025 10:52:26] "[32mPOST /users/login HTTP/1.1[0m" 302 -
+2025-11-20 10:52:26,665 - 127.0.0.1 - - [20/Nov/2025 10:52:26] "GET /users/profile HTTP/1.1" 200 -
+2025-11-20 10:52:26,699 - 127.0.0.1 - - [20/Nov/2025 10:52:26] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-11-20 10:52:26,776 - 127.0.0.1 - - [20/Nov/2025 10:52:26] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-11-20 10:52:30,418 - 127.0.0.1 - - [20/Nov/2025 10:52:30] "[32mGET /users/theme/light HTTP/1.1[0m" 302 -
+2025-11-20 10:52:30,424 - 127.0.0.1 - - [20/Nov/2025 10:52:30] "GET /users/profile HTTP/1.1" 200 -
+2025-11-20 10:52:30,454 - 127.0.0.1 - - [20/Nov/2025 10:52:30] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-11-20 10:52:30,516 - 127.0.0.1 - - [20/Nov/2025 10:52:30] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-11-20 10:52:31,427 - 127.0.0.1 - - [20/Nov/2025 10:52:31] "[32mGET /users/theme/dark HTTP/1.1[0m" 302 -
+2025-11-20 10:52:31,434 - 127.0.0.1 - - [20/Nov/2025 10:52:31] "GET /users/profile HTTP/1.1" 200 -
+2025-11-20 10:52:31,463 - 127.0.0.1 - - [20/Nov/2025 10:52:31] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-11-20 10:52:31,526 - 127.0.0.1 - - [20/Nov/2025 10:52:31] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-11-20 10:52:32,304 - 127.0.0.1 - - [20/Nov/2025 10:52:32] "[32mGET /users/theme/light HTTP/1.1[0m" 302 -
+2025-11-20 10:52:32,305 - 127.0.0.1 - - [20/Nov/2025 10:52:32] "GET /users/profile HTTP/1.1" 200 -
+2025-11-20 10:52:32,344 - 127.0.0.1 - - [20/Nov/2025 10:52:32] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-11-20 10:52:32,402 - 127.0.0.1 - - [20/Nov/2025 10:52:32] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-11-20 10:52:35,264 - 127.0.0.1 - - [20/Nov/2025 10:52:35] "[32mPOST /users/cookies HTTP/1.1[0m" 302 -
+2025-11-20 10:52:35,271 - 127.0.0.1 - - [20/Nov/2025 10:52:35] "GET /users/profile HTTP/1.1" 200 -
+2025-11-20 10:52:35,304 - 127.0.0.1 - - [20/Nov/2025 10:52:35] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-11-20 10:52:35,373 - 127.0.0.1 - - [20/Nov/2025 10:52:35] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-11-20 10:52:39,646 - 127.0.0.1 - - [20/Nov/2025 10:52:39] "[32mPOST /users/cookies HTTP/1.1[0m" 302 -
+2025-11-20 10:52:39,646 - 127.0.0.1 - - [20/Nov/2025 10:52:39] "GET /users/profile HTTP/1.1" 200 -
+2025-11-20 10:52:39,682 - 127.0.0.1 - - [20/Nov/2025 10:52:39] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-11-20 10:52:39,742 - 127.0.0.1 - - [20/Nov/2025 10:52:39] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-11-20 10:52:43,514 - 127.0.0.1 - - [20/Nov/2025 10:52:43] "[32mPOST /users/cookies HTTP/1.1[0m" 302 -
+2025-11-20 10:52:43,520 - 127.0.0.1 - - [20/Nov/2025 10:52:43] "GET /users/profile HTTP/1.1" 200 -
+2025-11-20 10:52:43,554 - 127.0.0.1 - - [20/Nov/2025 10:52:43] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-11-20 10:52:43,618 - 127.0.0.1 - - [20/Nov/2025 10:52:43] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-11-20 10:52:47,701 - 127.0.0.1 - - [20/Nov/2025 10:52:47] "[32mGET /users/logout HTTP/1.1[0m" 302 -
+2025-11-20 10:52:47,709 - 127.0.0.1 - - [20/Nov/2025 10:52:47] "GET /users/login HTTP/1.1" 200 -
+2025-11-20 10:52:47,739 - 127.0.0.1 - - [20/Nov/2025 10:52:47] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-11-20 10:52:47,804 - 127.0.0.1 - - [20/Nov/2025 10:52:47] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-11-20 10:55:19,371 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-11-20 10:55:19,371 - [33mPress CTRL+C to quit[0m
+2025-11-20 10:55:19,371 -  * Restarting with stat
+2025-11-20 10:55:20,099 -  * Debugger is active!
+2025-11-20 10:55:20,104 -  * Debugger PIN: 500-768-082
+2025-11-20 10:55:24,044 - 127.0.0.1 - - [20/Nov/2025 10:55:24] "GET /users/login HTTP/1.1" 200 -
+2025-11-20 10:55:24,102 - 127.0.0.1 - - [20/Nov/2025 10:55:24] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-11-20 10:55:24,172 - 127.0.0.1 - - [20/Nov/2025 10:55:24] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-11-20 10:55:25,658 - 127.0.0.1 - - [20/Nov/2025 10:55:25] "GET / HTTP/1.1" 200 -
+2025-11-20 10:55:25,685 - 127.0.0.1 - - [20/Nov/2025 10:55:25] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-11-20 10:55:25,685 - 127.0.0.1 - - [20/Nov/2025 10:55:25] "[36mGET /static/images/my_photo.jpg HTTP/1.1[0m" 304 -
+2025-11-20 10:55:25,746 - 127.0.0.1 - - [20/Nov/2025 10:55:25] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-11-20 10:55:27,298 - 127.0.0.1 - - [20/Nov/2025 10:55:27] "[35m[1mGET /post HTTP/1.1[0m" 500 -
+2025-11-20 10:55:27,322 - 127.0.0.1 - - [20/Nov/2025 10:55:27] "[36mGET /post?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-11-20 10:55:27,326 - 127.0.0.1 - - [20/Nov/2025 10:55:27] "[36mGET /post?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-11-20 10:55:27,336 - 127.0.0.1 - - [20/Nov/2025 10:55:27] "GET /post?__debugger__=yes&cmd=resource&f=console.png&s=vvUpsKC9WqauurpDziXp HTTP/1.1" 200 -
+2025-11-20 10:58:08,088 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-11-20 10:58:08,095 - [33mPress CTRL+C to quit[0m
+2025-11-20 10:58:08,095 -  * Restarting with stat
+2025-11-20 10:58:08,943 -  * Debugger is active!
+2025-11-20 10:58:08,947 -  * Debugger PIN: 500-768-082
+2025-11-20 10:58:09,630 - 127.0.0.1 - - [20/Nov/2025 10:58:09] "[35m[1mGET /post HTTP/1.1[0m" 500 -
+2025-11-20 10:58:09,713 - 127.0.0.1 - - [20/Nov/2025 10:58:09] "[36mGET /post?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-11-20 10:58:09,714 - 127.0.0.1 - - [20/Nov/2025 10:58:09] "[36mGET /post?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-11-20 10:58:10,112 - 127.0.0.1 - - [20/Nov/2025 10:58:10] "GET /post?__debugger__=yes&cmd=resource&f=console.png&s=6KmlWu7otSIe6cXSUs9X HTTP/1.1" 200 -
+2025-11-20 10:58:10,148 - 127.0.0.1 - - [20/Nov/2025 10:58:10] "[36mGET /post?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-11-20 10:58:13,574 - 127.0.0.1 - - [20/Nov/2025 10:58:13] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-11-20 10:58:16,155 - 127.0.0.1 - - [20/Nov/2025 10:58:16] "GET /products/ HTTP/1.1" 200 -
+2025-11-20 10:58:16,181 - 127.0.0.1 - - [20/Nov/2025 10:58:16] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-11-20 10:58:16,239 - 127.0.0.1 - - [20/Nov/2025 10:58:16] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-11-20 10:58:16,939 - 127.0.0.1 - - [20/Nov/2025 10:58:16] "GET /products/1 HTTP/1.1" 200 -
+2025-11-20 10:58:16,961 - 127.0.0.1 - - [20/Nov/2025 10:58:16] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-11-20 10:58:17,021 - 127.0.0.1 - - [20/Nov/2025 10:58:17] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-11-20 10:58:17,608 - 127.0.0.1 - - [20/Nov/2025 10:58:17] "GET /products/ HTTP/1.1" 200 -
+2025-11-20 10:58:17,634 - 127.0.0.1 - - [20/Nov/2025 10:58:17] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-11-20 10:58:17,695 - 127.0.0.1 - - [20/Nov/2025 10:58:17] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-11-20 10:58:18,245 - 127.0.0.1 - - [20/Nov/2025 10:58:18] "GET /products/2 HTTP/1.1" 200 -
+2025-11-20 10:58:18,269 - 127.0.0.1 - - [20/Nov/2025 10:58:18] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-11-20 10:58:18,337 - 127.0.0.1 - - [20/Nov/2025 10:58:18] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-11-20 10:58:19,893 - 127.0.0.1 - - [20/Nov/2025 10:58:19] "GET /users/hi/Ivan HTTP/1.1" 200 -
+2025-11-20 10:58:19,914 - 127.0.0.1 - - [20/Nov/2025 10:58:19] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-11-20 10:58:19,974 - 127.0.0.1 - - [20/Nov/2025 10:58:19] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-11-20 10:58:22,144 - 127.0.0.1 - - [20/Nov/2025 10:58:22] "GET /contacts HTTP/1.1" 200 -
+2025-11-20 10:58:22,169 - 127.0.0.1 - - [20/Nov/2025 10:58:22] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-11-20 10:58:22,243 - 127.0.0.1 - - [20/Nov/2025 10:58:22] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-11-20 11:02:55,836 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-11-20 11:02:55,836 - [33mPress CTRL+C to quit[0m
+2025-11-20 11:02:55,837 -  * Restarting with stat
+2025-11-20 11:02:56,559 -  * Debugger is active!
+2025-11-20 11:02:56,563 -  * Debugger PIN: 500-768-082
+2025-11-20 11:02:59,921 - 127.0.0.1 - - [20/Nov/2025 11:02:59] "GET / HTTP/1.1" 200 -
+2025-11-20 11:03:00,039 - 127.0.0.1 - - [20/Nov/2025 11:03:00] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-11-20 11:03:00,040 - 127.0.0.1 - - [20/Nov/2025 11:03:00] "[36mGET /static/images/my_photo.jpg HTTP/1.1[0m" 304 -
+2025-11-20 11:03:00,165 - 127.0.0.1 - - [20/Nov/2025 11:03:00] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-11-20 11:03:01,812 - 127.0.0.1 - - [20/Nov/2025 11:03:01] "[35m[1mGET /post HTTP/1.1[0m" 500 -
+2025-11-20 11:03:01,842 - 127.0.0.1 - - [20/Nov/2025 11:03:01] "[36mGET /post?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-11-20 11:03:01,842 - 127.0.0.1 - - [20/Nov/2025 11:03:01] "[36mGET /post?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-11-20 11:03:01,867 - 127.0.0.1 - - [20/Nov/2025 11:03:01] "GET /post?__debugger__=yes&cmd=resource&f=console.png&s=GyFkY7LLmD3PAh8vDKW6 HTTP/1.1" 200 -
+2025-11-20 11:07:22,464 - 127.0.0.1 - - [20/Nov/2025 11:07:22] "[35m[1mGET /post HTTP/1.1[0m" 500 -
+2025-11-20 11:07:22,490 - 127.0.0.1 - - [20/Nov/2025 11:07:22] "[36mGET /post?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-11-20 11:07:22,490 - 127.0.0.1 - - [20/Nov/2025 11:07:22] "[36mGET /post?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-11-20 11:07:22,504 - 127.0.0.1 - - [20/Nov/2025 11:07:22] "[36mGET /post?__debugger__=yes&cmd=resource&f=console.png&s=GyFkY7LLmD3PAh8vDKW6 HTTP/1.1[0m" 304 -
+2025-11-20 11:07:22,556 - 127.0.0.1 - - [20/Nov/2025 11:07:22] "[36mGET /post?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-11-20 11:07:22,671 -  * Detected change in 'D:\\Python\\flask_app_Pykalo\\app\\posts\\__init__.py', reloading
+2025-11-20 11:07:22,761 -  * Restarting with stat
+2025-11-20 11:07:23,510 -  * Debugger is active!
+2025-11-20 11:07:23,515 -  * Debugger PIN: 500-768-082
+2025-11-20 11:07:26,222 - 127.0.0.1 - - [20/Nov/2025 11:07:26] "GET /post HTTP/1.1" 200 -
+2025-11-20 11:07:26,281 - 127.0.0.1 - - [20/Nov/2025 11:07:26] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-11-20 11:07:26,337 - 127.0.0.1 - - [20/Nov/2025 11:07:26] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-11-20 11:07:27,247 - 127.0.0.1 - - [20/Nov/2025 11:07:27] "[35m[1mGET /post/create HTTP/1.1[0m" 500 -
+2025-11-20 11:07:27,273 - 127.0.0.1 - - [20/Nov/2025 11:07:27] "GET /post/create?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-11-20 11:07:27,274 - 127.0.0.1 - - [20/Nov/2025 11:07:27] "GET /post/create?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-11-20 11:07:27,286 - 127.0.0.1 - - [20/Nov/2025 11:07:27] "GET /post/create?__debugger__=yes&cmd=resource&f=console.png&s=BotS5KN4deXYT5Oc1ny6 HTTP/1.1" 200 -
+2025-11-20 11:07:27,326 - 127.0.0.1 - - [20/Nov/2025 11:07:27] "GET /post/create?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-11-20 11:07:41,796 - 127.0.0.1 - - [20/Nov/2025 11:07:41] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-11-20 11:09:01,763 - 127.0.0.1 - - [20/Nov/2025 11:09:01] "GET /post HTTP/1.1" 200 -
+2025-11-20 11:09:01,788 - 127.0.0.1 - - [20/Nov/2025 11:09:01] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-11-20 11:09:01,851 - 127.0.0.1 - - [20/Nov/2025 11:09:01] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-11-20 11:09:02,524 - 127.0.0.1 - - [20/Nov/2025 11:09:02] "GET /post/create HTTP/1.1" 200 -
+2025-11-20 11:09:02,550 - 127.0.0.1 - - [20/Nov/2025 11:09:02] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-11-20 11:09:02,617 - 127.0.0.1 - - [20/Nov/2025 11:09:02] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-11-20 11:09:06,379 - 127.0.0.1 - - [20/Nov/2025 11:09:06] "[32mPOST /post/create HTTP/1.1[0m" 302 -
+2025-11-20 11:09:06,387 - 127.0.0.1 - - [20/Nov/2025 11:09:06] "GET /post HTTP/1.1" 200 -
+2025-11-20 11:09:06,422 - 127.0.0.1 - - [20/Nov/2025 11:09:06] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-11-20 11:09:06,507 - 127.0.0.1 - - [20/Nov/2025 11:09:06] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-11-20 11:10:12,532 - 127.0.0.1 - - [20/Nov/2025 11:10:12] "GET /post/1 HTTP/1.1" 200 -
+2025-11-20 11:10:12,558 - 127.0.0.1 - - [20/Nov/2025 11:10:12] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-11-20 11:10:12,627 - 127.0.0.1 - - [20/Nov/2025 11:10:12] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-11-20 11:10:14,418 - 127.0.0.1 - - [20/Nov/2025 11:10:14] "GET /post/1/delete HTTP/1.1" 200 -
+2025-11-20 11:10:14,440 - 127.0.0.1 - - [20/Nov/2025 11:10:14] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-11-20 11:10:14,507 - 127.0.0.1 - - [20/Nov/2025 11:10:14] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-11-20 11:10:15,469 - 127.0.0.1 - - [20/Nov/2025 11:10:15] "[32mPOST /post/1/delete HTTP/1.1[0m" 302 -
+2025-11-20 11:10:15,477 - 127.0.0.1 - - [20/Nov/2025 11:10:15] "GET /post HTTP/1.1" 200 -
+2025-11-20 11:10:15,510 - 127.0.0.1 - - [20/Nov/2025 11:10:15] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-11-20 11:10:15,572 - 127.0.0.1 - - [20/Nov/2025 11:10:15] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-11-20 11:10:16,045 - 127.0.0.1 - - [20/Nov/2025 11:10:16] "GET /post/create HTTP/1.1" 200 -
+2025-11-20 11:10:16,071 - 127.0.0.1 - - [20/Nov/2025 11:10:16] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-11-20 11:10:16,135 - 127.0.0.1 - - [20/Nov/2025 11:10:16] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-11-20 11:10:20,934 - 127.0.0.1 - - [20/Nov/2025 11:10:20] "[32mPOST /post/create HTTP/1.1[0m" 302 -
+2025-11-20 11:10:20,944 - 127.0.0.1 - - [20/Nov/2025 11:10:20] "GET /post HTTP/1.1" 200 -
+2025-11-20 11:10:20,975 - 127.0.0.1 - - [20/Nov/2025 11:10:20] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-11-20 11:10:21,035 - 127.0.0.1 - - [20/Nov/2025 11:10:21] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-11-20 11:10:22,158 - 127.0.0.1 - - [20/Nov/2025 11:10:22] "GET /post/1 HTTP/1.1" 200 -
+2025-11-20 11:10:22,184 - 127.0.0.1 - - [20/Nov/2025 11:10:22] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-11-20 11:10:22,243 - 127.0.0.1 - - [20/Nov/2025 11:10:22] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-11-20 11:10:22,824 - 127.0.0.1 - - [20/Nov/2025 11:10:22] "GET /post/1/update HTTP/1.1" 200 -
+2025-11-20 11:10:22,844 - 127.0.0.1 - - [20/Nov/2025 11:10:22] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-11-20 11:10:22,920 - 127.0.0.1 - - [20/Nov/2025 11:10:22] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-11-20 11:10:24,879 - 127.0.0.1 - - [20/Nov/2025 11:10:24] "[32mPOST /post/1/update HTTP/1.1[0m" 302 -
+2025-11-20 11:10:24,887 - 127.0.0.1 - - [20/Nov/2025 11:10:24] "GET /post/1 HTTP/1.1" 200 -
+2025-11-20 11:10:24,918 - 127.0.0.1 - - [20/Nov/2025 11:10:24] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-11-20 11:10:24,981 - 127.0.0.1 - - [20/Nov/2025 11:10:24] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-11-20 11:10:25,807 - 127.0.0.1 - - [20/Nov/2025 11:10:25] "GET /post HTTP/1.1" 200 -
+2025-11-20 11:10:25,832 - 127.0.0.1 - - [20/Nov/2025 11:10:25] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-11-20 11:10:25,899 - 127.0.0.1 - - [20/Nov/2025 11:10:25] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-11-20 11:10:26,485 - 127.0.0.1 - - [20/Nov/2025 11:10:26] "GET /post/1 HTTP/1.1" 200 -
+2025-11-20 11:10:26,511 - 127.0.0.1 - - [20/Nov/2025 11:10:26] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-11-20 11:10:26,573 - 127.0.0.1 - - [20/Nov/2025 11:10:26] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-11-20 11:10:27,147 - 127.0.0.1 - - [20/Nov/2025 11:10:27] "GET /post/1/delete HTTP/1.1" 200 -
+2025-11-20 11:10:27,170 - 127.0.0.1 - - [20/Nov/2025 11:10:27] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-11-20 11:10:27,225 - 127.0.0.1 - - [20/Nov/2025 11:10:27] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-11-20 11:10:27,740 - 127.0.0.1 - - [20/Nov/2025 11:10:27] "[32mPOST /post/1/delete HTTP/1.1[0m" 302 -
+2025-11-20 11:10:27,747 - 127.0.0.1 - - [20/Nov/2025 11:10:27] "GET /post HTTP/1.1" 200 -
+2025-11-20 11:10:27,782 - 127.0.0.1 - - [20/Nov/2025 11:10:27] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-11-20 11:10:27,841 - 127.0.0.1 - - [20/Nov/2025 11:10:27] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
