@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="alert alert-danger">
+    <h4>Are you sure you want to delete the post "{{ post.title }}"?</h4>
+    <form action="{{ url_for('posts.delete_post', id=post.id) }}" method="POST">
+        <input type="submit" class="btn btn-danger" value="Yes, Delete">
+        <a href="{{ url_for('posts.post_detail', id=post.id) }}" class="btn btn-secondary">Cancel</a>
+    </form>
+</div>
+{% endblock %}

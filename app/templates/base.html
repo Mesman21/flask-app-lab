@@ -11,21 +11,38 @@
 
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
-            <a class="navbar-brand" href="{{ url_for('resume') }}">Мій Проект</a>
+            <a class="navbar-brand" href="{{ url_for('main.resume') }}">Мій Проект</a>
+
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
+
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav me-auto">
-                    <li class="nav-item"><a class="nav-link" href="{{ url_for('resume') }}">Резюме</a></li>
-                    <li class="nav-item"><a class="nav-link" href="{{ url_for('contacts') }}">Контакти</a></li>
-                    <li class="nav-item"><a class="nav-link" href="{{ url_for('users.greetings', name='Ivan') }}">Привітання</a></li>
-                    <li class="nav-item"><a class="nav-link" href="{{ url_for('products.list_products') }}">Продукти</a></li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ url_for('main.resume') }}">Резюме</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ url_for('main.contacts') }}">Контакти</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ url_for('users.greetings', name='Ivan') }}">Привітання (Users BP)</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ url_for('products.list_products') }}">Продукти (Products BP)</a>
+                    </li>
+                    <li class="nav-item">
+                         <a class="nav-link" href="{{ url_for('posts.all_posts') }}">Блог</a>
+                    </li>
 
                     {% if 'username' in session %}
-                    <li class="nav-item"><a class="nav-link" href="{{ url_for('users.profile') }}">Профіль ({{ session['username'] }})</a></li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ url_for('users.profile') }}">Профіль ({{ session['username'] }})</a>
+                    </li>
                     {% else %}
-                    <li class="nav-item"><a class="nav-link" href="{{ url_for('users.login') }}">Вхід</a></li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ url_for('users.login') }}">Вхід</a>
+                    </li>
                     {% endif %}
                 </ul>
             </div>
@@ -43,6 +60,7 @@
             {% endfor %}
           {% endif %}
         {% endwith %}
+
         {% block content %}{% endblock %}
     </div>
 
